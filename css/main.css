@@ -759,3 +759,49 @@ header .main > li > a:hover::before {
 .services .box .info a {
 	color: var(--main-color);
 }
+.skills {
+	padding-top: var(--main-padding-top);
+	padding-bottom: var(--main-padding-bottom);
+}
+.skills .container {
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 991px) {
+	.skills img {
+		display: none;
+	}
+}
+
+.skills .all-skills {
+	flex: 1;
+}
+
+.skills .skill h3 {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.skills .skill h3 span {
+	background-color: white;
+	color: var(--main-color);
+	border: 1px solid #ccc;
+	font-size: 12px;
+	padding: 4px 7px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.skills .skill .prog-par {
+	background-color: var(--section-background);
+	height: 30px;
+	width: 100%;
+}
+.skills .skill .prog-par span {
+	background-color: var(--main-color);
+	height: 100%;
+	display: block;
+}
